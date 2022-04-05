@@ -641,26 +641,32 @@ footer {
 
 .gallary-item:nth-child(1) {
   background: url(./assets/img/autumn1.jpg);
+  background-size: cover;
 }
 
 .gallary-item:nth-child(2) {
   background: url(./assets/img/autumn2.jpg);
+  background-size: cover;
 }
 
 .gallary-item:nth-child(3) {
   background: url(./assets/img/autumn3.jpg);
+  background-size: cover;
 }
 
 .gallary-item:nth-child(4) {
   background: url(./assets/img/autumn4.jpg);
+  background-size: cover;
 }
 
 .gallary-item:nth-child(5) {
   background: url(./assets/img/autumn5.jpg);
+  background-size: cover;
 }
 
 .gallary-item:nth-child(6) {
   background: url(./assets/img/autumn6.jpg);
+  background-size: cover;
 }
 
 /*-------------------------1440 - 950-------------------------*/
@@ -692,6 +698,11 @@ footer {
 
   .portfolio-gallary {
     gap: 20px;
+  }
+
+  .gallary-item {
+    width: 100%;
+    height: 450px;
   }
 }
 .video-player {
