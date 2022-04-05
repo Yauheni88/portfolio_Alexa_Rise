@@ -304,7 +304,7 @@ header {
 /*------------------------ max 420px --------------------------*/
 @media (max-width: 420px) {
   header {
-    height: 550px;
+    height: 100vh;
   }
 
   .logo {
