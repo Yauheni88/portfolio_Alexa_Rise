@@ -631,6 +631,7 @@ footer {
 @media (max-width: 768px) {
   #skills .flex-wrapper {
     justify-content: space-around;
+    gap: 20px;
   }
 
   .title-div {
@@ -641,6 +642,10 @@ footer {
 @media (max-width: 420px) {
   .title-div {
     width: 100%;
+  }
+
+  .skills-card {
+    height: auto;
   }
 }
 .portfolio-btns {
