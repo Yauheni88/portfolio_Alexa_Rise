@@ -25,12 +25,12 @@
                         <span class="btn-devider">/</span>
                         <button class="lang-btn btn-ru">ru</button>
                     </div>
-                    <span class="hamburger"></span>
+                    <span class="hamburger" data-modal-button="modal-1"></span>
                 </nav> 
             </div>
-            <div class="adaptive-menu menu-close">
-                <nav class="adaptive-nav nav-close">
-                    <span class="adaptive-close"></span>
+            <div id="modal-1" class="adaptive-menu menu-close" data-modal>
+                <nav class="adaptive-nav nav-close" data-modal-menu>
+                    <span class="adaptive-close" data-modal-close></span>
                     <ul class="adaptive-list">
                         <li class="adaptive-item"><a href="#skills" class="adaptive-link">Skills</a></li>
                         <li class="adaptive-item"><a href="#portfolio" class="adaptive-link">Portfolio</a></li>
@@ -197,5 +197,6 @@
             </div>
         </div>
     </footer>
+    <script src="./assets/js/modal.js"></script>
 </body>
 </html>

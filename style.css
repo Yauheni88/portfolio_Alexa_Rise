@@ -222,7 +222,7 @@ header {
 }
 
 .menu-close {
-  display: none;
+  height: 0;
 }
 
 .adaptive-close {
