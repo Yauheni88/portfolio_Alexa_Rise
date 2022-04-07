@@ -307,6 +307,7 @@ header {
 @media (max-width: 730px) {
   .adaptive-nav {
     width: 100%;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -669,34 +670,128 @@ footer {
   height: 560px;
 }
 
-.gallary-item:nth-child(1) {
-  background: url(./assets/img/autumn1.jpg);
+.gallary-item-winter:nth-child(1) {
+  background: url(./assets/img/winter/winter1.jpg);
   background-size: cover;
 }
 
-.gallary-item:nth-child(2) {
-  background: url(./assets/img/autumn2.jpg);
+.gallary-item-winter:nth-child(2) {
+  background: url(./assets/img/winter/winter2.jpg);
   background-size: cover;
 }
 
-.gallary-item:nth-child(3) {
-  background: url(./assets/img/autumn3.jpg);
+.gallary-item-winter:nth-child(3) {
+  background: url(./assets/img/winter/winter3.jpg);
   background-size: cover;
 }
 
-.gallary-item:nth-child(4) {
-  background: url(./assets/img/autumn4.jpg);
+.gallary-item-winter:nth-child(4) {
+  background: url(./assets/img/winter/winter4.jpg);
   background-size: cover;
 }
 
-.gallary-item:nth-child(5) {
-  background: url(./assets/img/autumn5.jpg);
+.gallary-item-winter:nth-child(5) {
+  background: url(./assets/img/winter/winter5.jpg);
   background-size: cover;
 }
 
-.gallary-item:nth-child(6) {
-  background: url(./assets/img/autumn6.jpg);
+.gallary-item-winter:nth-child(6) {
+  background: url(./assets/img/winter/winter6.jpg);
   background-size: cover;
+}
+
+.gallary-item-spring:nth-child(1) {
+  background: url(./assets/img/spring/spring1.jpg);
+  background-size: cover;
+}
+
+.gallary-item-spring:nth-child(2) {
+  background: url(./assets/img/spring/spring2.jpg);
+  background-size: cover;
+}
+
+.gallary-item-spring:nth-child(3) {
+  background: url(./assets/img/spring/spring3.jpg);
+  background-size: cover;
+}
+
+.gallary-item-spring:nth-child(4) {
+  background: url(./assets/img/spring/spring4.jpg);
+  background-size: cover;
+}
+
+.gallary-item-spring:nth-child(5) {
+  background: url(./assets/img/spring/spring5.jpg);
+  background-size: cover;
+}
+
+.gallary-item-spring:nth-child(6) {
+  background: url(./assets/img/spring/spring6.jpg);
+  background-size: cover;
+}
+
+.gallary-item-summer:nth-child(1) {
+  background: url(./assets/img/summer/summer1.jpg);
+  background-size: cover;
+}
+
+.gallary-item-summer:nth-child(2) {
+  background: url(./assets/img/summer/summer2.jpg);
+  background-size: cover;
+}
+
+.gallary-item-summer:nth-child(3) {
+  background: url(./assets/img/summer/summer3.jpg);
+  background-size: cover;
+}
+
+.gallary-item-summer:nth-child(4) {
+  background: url(./assets/img/summer/summer4.jpg);
+  background-size: cover;
+}
+
+.gallary-item-summer:nth-child(5) {
+  background: url(./assets/img/summer/summer5.jpg);
+  background-size: cover;
+}
+
+.gallary-item-summer:nth-child(6) {
+  background: url(./assets/img/summer/summer6.jpg);
+  background-size: cover;
+}
+
+.gallary-item-autumn:nth-child(1) {
+  background: url(./assets/img/autumn/autumn1.jpg);
+  background-size: cover;
+}
+
+.gallary-item-autumn:nth-child(2) {
+  background: url(./assets/img/autumn/autumn2.jpg);
+  background-size: cover;
+}
+
+.gallary-item-autumn:nth-child(3) {
+  background: url(./assets/img/autumn/autumn3.jpg);
+  background-size: cover;
+}
+
+.gallary-item-autumn:nth-child(4) {
+  background: url(./assets/img/autumn/autumn4.jpg);
+  background-size: cover;
+}
+
+.gallary-item-autumn:nth-child(5) {
+  background: url(./assets/img/autumn/autumn5.jpg);
+  background-size: cover;
+}
+
+.gallary-item-autumn:nth-child(6) {
+  background: url(./assets/img/autumn/autumn6.jpg);
+  background-size: cover;
+}
+
+.tab-hidden {
+  display: none;
 }
 
 /*-------------------------1440 - 950-------------------------*/

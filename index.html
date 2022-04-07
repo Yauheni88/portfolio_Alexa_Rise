@@ -92,18 +92,42 @@
                     <hr class="title-hr">
                 </div>
                 <div class="portfolio-btns flex-wrap">
-                    <button class="btn portfolio-btn">Winter</button>
-                    <button class="btn portfolio-btn">Spring</button>
-                    <button class="btn portfolio-btn">Summer</button>
-                    <button class="btn portfolio-btn portfolio-active">Autumn</button>
+                    <button class="btn portfolio-btn" data-tab="tab-1">Winter</button>
+                    <button class="btn portfolio-btn" data-tab="tab-2">Spring</button>
+                    <button class="btn portfolio-btn" data-tab="tab-3">Summer</button>
+                    <button class="btn portfolio-btn portfolio-active" data-tab="tab-4">Autumn</button>
                 </div>
-                <div class="portfolio-gallary flex-wrap">
-                    <div class="gallary-item"></div>
-                    <div class="gallary-item"></div>
-                    <div class="gallary-item"></div>
-                    <div class="gallary-item"></div>
-                    <div class="gallary-item"></div>
-                    <div class="gallary-item"></div>
+                <div class="portfolio-gallary flex-wrap" data-tab-content id="tab-1">
+                    <div class="gallary-item gallary-item-winter"></div>
+                    <div class="gallary-item gallary-item-winter"></div>
+                    <div class="gallary-item gallary-item-winter"></div>
+                    <div class="gallary-item gallary-item-winter"></div>
+                    <div class="gallary-item gallary-item-winter"></div>
+                    <div class="gallary-item gallary-item-winter"></div>
+                </div>
+                <div class="portfolio-gallary flex-wrap tab-hidden" data-tab-content id="tab-2">
+                    <div class="gallary-item gallary-item-spring"></div>
+                    <div class="gallary-item gallary-item-spring"></div>
+                    <div class="gallary-item gallary-item-spring"></div>
+                    <div class="gallary-item gallary-item-spring"></div>
+                    <div class="gallary-item gallary-item-spring"></div>
+                    <div class="gallary-item gallary-item-spring"></div>
+                </div>
+                <div class="portfolio-gallary flex-wrap tab-hidden" data-tab-content id="tab-3">
+                    <div class="gallary-item gallary-item-summer"></div>
+                    <div class="gallary-item gallary-item-summer"></div>
+                    <div class="gallary-item gallary-item-summer"></div>
+                    <div class="gallary-item gallary-item-summer"></div>
+                    <div class="gallary-item gallary-item-summer"></div>
+                    <div class="gallary-item gallary-item-summer"></div>
+                </div>
+                <div class="portfolio-gallary flex-wrap tab-hidden" data-tab-content id="tab-4">
+                    <div class="gallary-item gallary-item-autumn"></div>
+                    <div class="gallary-item gallary-item-autumn"></div>
+                    <div class="gallary-item gallary-item-autumn"></div>
+                    <div class="gallary-item gallary-item-autumn"></div>
+                    <div class="gallary-item gallary-item-autumn"></div>
+                    <div class="gallary-item gallary-item-autumn"></div>
                 </div>
             </div>
         </section>
@@ -198,5 +222,6 @@
         </div>
     </footer>
     <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/tabs.js"></script>
 </body>
 </html>
