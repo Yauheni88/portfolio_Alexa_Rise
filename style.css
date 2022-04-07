@@ -220,6 +220,7 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 200;
   overflow: hidden;
+  transition: 0.3s;
 }
 
 .menu-close {
@@ -245,7 +246,7 @@ header {
   width: 620px;
   height: 100vh;
   background-color: #000000;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .nav-close {
